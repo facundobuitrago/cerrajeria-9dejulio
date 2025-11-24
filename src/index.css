@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply bg-gray-800 p-6 rounded-xl shadow text-center 
+    border border-transparent  
+    transition-transform transition-colors duration-300 
+    cursor-pointer 
+    hover:scale-105 hover:bg-gray-700 hover:border-blue-500/70;
+}
